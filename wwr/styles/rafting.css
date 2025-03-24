@@ -1,0 +1,79 @@
+/* Author: Nina Freyre Gentina
+I know I'm missing layout possition. I'm trying to do it still and I'm not getting it. But I submit my task now.*/
+
+:root {
+    --primary-color: #083b72;
+    --secondary-color: #fafaef;
+    --accent1-color: #180703;
+    --accent2-color: #ffc670;
+   
+    --main-border:  1px solid black;
+}
+nav {
+    background-color: var(--primary-color);
+    padding: 10px;
+}
+
+.hero section {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    
+  
+}
+
+img {
+   
+    object-fit: cover;
+}
+
+h1 { 
+    font-family: "Lora", serif;
+    font-weight: 700;
+    color: var(--accent1-color);
+    text-align: center;
+    
+    
+   
+}
+
+.div article {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    image-orientation: right;
+    
+}
+
+
+h2 {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 600;
+    color: var(--primary-color)
+ 
+}
+
+body {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 400;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color)
+    
+}
+
+main {
+    max-width: 840px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px;
+    
+}
+a {
+    text-decoration: none;
+    color: var(--secondary-color)
+}
+
