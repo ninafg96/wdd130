@@ -9,30 +9,60 @@ I know I'm missing layout possition. I'm trying to do it still and I'm not getti
    
     --main-border:  1px solid black;
 }
-nav {
-    background-color: var(--primary-color);
-    padding: 10px;
-}
 
-.hero section {
-    display: block;
-    width: 100%;
-    height: auto;
-    position: relative;
-    
+header {
+    background-color: var(--primary-color);
+	display: grid;
+   
+	grid-template-columns: 120px 1fr 1fr 1fr;
+    grid-template-rows: 200px; 
+    grid-column-gap: 10px;
+	align-content: space-around;
+    justify-content: center;
+   
+	border-bottom: 1px solid #ccc;
+	
+   
+}
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
   
 }
 
-img {
+.navigation {
+    
+    padding: 50px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
    
-    object-fit: cover;
+    align-content: space-between;
+  
+    height: 60px;
+    
+
 }
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    background-image: cover;
+    
+}
+
+
 
 h1 { 
     font-family: "Lora", serif;
     font-weight: 700;
     color: var(--accent1-color);
     text-align: center;
+    font-size: 70px;
     
     
    
